@@ -9,7 +9,7 @@ public class TwoSum {
         for (int i = 0; i < arr.length; i++) {
             for (int j = i + 1; j < arr.length; j++) {
 
-                if (arr[i] + arr[j] == target) {
+                if (arr[i] + arr[j] == target) // Auto Git Test tushar
                     System.out.println("Indices: " + i + ", " + j);
                 }
             }
